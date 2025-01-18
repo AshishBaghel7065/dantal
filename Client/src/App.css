@@ -1,0 +1,1513 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.ubuntu-light {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ubuntu-regular {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-medium {
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-bold {
+    font-family: "Ubuntu", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-light-italic {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.primary-color {
+    color: rgb(0, 22, 106) !important;
+}
+
+.secondary-color {
+    color: #666;
+}
+
+.navbar-main {
+    /* position: fixed;
+    top: 0 !important; */
+    width: 100%;
+    z-index: 9;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+}
+
+.top-bar {
+    background-color: white;
+    color: white;
+}
+
+
+.details {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.top-bar p:first-child {
+    font-size: 21px;
+}
+
+.details p {
+    font-size: 21px;
+    font-weight: 400;
+    color: rgb(0, 22, 106);
+}
+
+.social-link i {
+    font-size: 16px;
+    padding: 8px 9px;
+    background-color: rgb(0, 22, 106);
+    border-radius: 50%;
+    color: white;
+    margin: 5px;
+}
+
+
+
+.details p:hover {
+    color: rgb(35, 59, 158);
+}
+
+.top-detils {
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.navbar-brand {
+    font-size: 29px !important;
+    font-weight: 600;
+    color: rgb(0, 22, 106);
+}
+
+
+
+.navbar .nav-link {
+
+    font-weight: 500;
+    color: rgb(54, 54, 54) !important;
+    font-size: 19px !important;
+}
+
+
+.hero-section {
+    padding: 50px 0px;
+}
+
+
+.hero-slider {
+    width: 100%;
+    height: 590px;
+    border-radius: 10px !important;
+
+}
+
+.about-section img {
+    border: 10px solid rgb(0, 22, 106) !important;
+}
+
+.hero-slider img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px !important;
+}
+
+.slick-prev {
+    left: -2% !important;
+    height: 40px !important;
+    width: 40px !important;
+    z-index: 7777;
+}
+
+
+.slick-next {
+    right: 1% !important;
+    z-index: 7777;
+
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 29px !important;
+    line-height: 1;
+    opacity: .75;
+    color: white !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hero-section {
+    background: rgb(0, 22, 106);
+    background: linear-gradient(117deg, rgba(0, 22, 106, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+
+
+.top-heading h1 {
+    font-size: 79px !important;
+    width: 80%;
+    color: white;
+}
+
+.subheading {
+    font-size: 35px !important;
+    color: white;
+}
+
+.hero-btn {
+    background-color: white;
+    padding: 16px 30px;
+    color: rgb(0, 22, 106);
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.hero-btn:hover {
+    background-color: rgba(255, 255, 255, 0.762);
+
+}
+
+.navbar-btn {
+
+    background-color: rgb(0, 22, 106);
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 4px solid rgb(0, 22, 106);
+    border-radius: 5px;
+    transition: all ease-in-out 500ms;
+}
+
+.navbar-btn:hover {
+    background-color: rgb(26, 50, 143);
+    color: white;
+    border: 4px solid rgb(26, 50, 143);
+}
+
+
+.about-section img {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.about-section {
+    position: relative;
+}
+
+.clinic-name {
+    position: absolute;
+    top: 170px;
+    left: 300px;
+    background-color: white;
+    padding: 20px 40px;
+    color: rgb(0, 22, 106);
+
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    border: 1px dashed rgb(0, 22, 106);
+
+}
+
+.about-section p {
+    font-size: 19px;
+}
+
+.why p {
+    font-size: 19px;
+}
+
+.about-section h4 {
+    font-size: 40px;
+    color: rgb(0, 22, 106);
+}
+
+.section-heading {
+    padding: 70px 0px;
+}
+
+.pad-30 {
+    padding: 70px 10px;
+}
+
+.process-section {
+    margin-top: 40px;
+    padding: 3rem 0;
+    background-color: #f9f9f9;
+}
+
+.process-step {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.9s ease;
+}
+
+.process-step:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.step-icon {
+    font-size: 2.9rem;
+    color: rgb(0, 22, 106);
+    padding: 15px;
+    transition: all ease-in-out 1s;
+    border-radius: 50%;
+    border: 5px solid transparent;
+}
+
+.process-step:hover .step-icon {
+    padding: 15px;
+    border: 5px solid rgb(0, 22, 106);
+    border-radius: 100%;
+    color: rgb(35, 59, 158);
+}
+
+.step-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.step-description {
+    font-size: 0.95rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+.why-image {
+    width: 50%;
+    border-radius: 390px;
+}
+
+.why-image2 {
+    width: 50%;
+    border-radius: 390px;
+}
+
+.target {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 9px;
+}
+
+.sp {
+    background: rgb(0, 22, 106);
+    background: linear-gradient(117deg, rgb(2, 24, 111) 0%, rgba(0, 16, 41, 0.882) 100%);
+    color: white !important;
+}
+
+.sp span {
+    color: white !important;
+}
+
+.sp p {
+    color: white !important;
+}
+
+.target p {
+    font-weight: 400;
+    color: rgb(0, 22, 106);
+    font-size: 24px;
+}
+
+.faq-section {
+    font-size: 19px;
+}
+
+.target-no {
+    font-size: 49px;
+    font-weight: 600;
+    color: rgb(0, 22, 106);
+}
+
+/* Remove the color change on active accordion item */
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    /* Remove background color */
+    color: inherit;
+    /* Maintain default text color */
+    border-color: inherit !important;
+    /* Maintain default border color */
+}
+
+/* Optional: You can also customize the color for inactive accordion items */
+.accordion-button {
+    background-color: transparent;
+    /* Background for inactive state */
+    color: inherit;
+    /* Text color for inactive state */
+    border-color: inherit !important;
+    /* Border for inactive state */
+    border: none !important;
+}
+
+.accordion-button {
+    background-color: rgb(0, 22, 106) !important;
+    color: white !important;
+    font-size: 19px !important;
+    border-radius: 5px !important;
+}
+
+.custom-accordion-button::after {
+    color: white !important;
+    /* Change chevron icon color to white */
+}
+
+.accordion-body {
+    font-size: 19px;
+}
+
+.customer-review-section {
+    padding: 50px 0;
+}
+
+.reviews-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    /* Pause the animation on hover */
+    animation-play-state: running;
+}
+
+.reviews-container:hover .reviews-content {
+    animation-play-state: paused;
+    /* Pause the animation when hovered */
+}
+
+.reviews-content {
+    display: flex;
+    animation: scrollReviews 20s linear infinite;
+}
+
+.review-box {
+    min-width: 300px;
+    padding: 20px;
+    margin: 0 15px;
+    margin: 20px;
+    border-top: 2px solid rgb(0, 22, 106);
+    border-bottom: 2px solid rgb(0, 22, 106);
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-text {
+    font-size: 19px !important;
+    color: #666;
+    font-style: italic;
+}
+
+.review-author {
+    font-size: 19px;
+    color: rgb(0, 22, 106);
+    text-align: right;
+}
+
+.customer-review-section {
+    padding: 7rem 0;
+    background-color: #f9f9f9;
+}
+
+
+.contact-container {
+    background: white;
+    color: rgb(0, 16, 80);
+    padding: 20px;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+}
+
+.contact-container li {
+    font-weight: 500;
+}
+
+.contact-detail {
+    background-color: #edf7fa;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.form-control {
+    height: 50px !important;
+    border-radius: 6px !important;
+
+}
+
+.msg {
+    height: 120px !important;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px 20px;
+    background-color: rgb(0, 16, 80);
+    border: none !important;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.submit-btn:hover {
+    background-color: rgb(0, 22, 106);
+}
+
+.request-form {
+    padding: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.287);
+    border-radius: 30px;
+
+
+}
+
+@keyframes scrollReviews {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+footer {
+    background-color: rgb(6, 3, 62);
+    color: white !important;
+    padding: 30px 0;
+}
+
+footer .container {
+    font-size: 16px;
+}
+
+footer .logo {
+    width: 150px;
+}
+
+footer .footer-list-box ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer .footer-list-box ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+}
+
+footer .footer-list-box ul li a:hover {
+    color: #ccc;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+footer .payment-mode img {
+    width: 50px;
+    margin: 10px;
+}
+
+footer .social-links a i {
+    color: #fff;
+}
+
+footer .top-btn {
+    color: #f39c12;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .contact-info li {
+    margin: 5px 0;
+}
+
+footer hr {
+    border-color: #444;
+}
+
+footer .text-white {
+    color: #fff;
+}
+
+footer .m-3 {
+    margin: 20px 0;
+}
+
+.service-icon {
+    font-size: 37px;
+    margin: 20px;
+}
+
+.service-box {
+    background-color: white;
+    padding: 20px;
+    min-height: 450px;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(0, 22, 106);
+    border-radius: 8px;
+    border: 1px solid rgb(0, 22, 106);
+    border-radius: 5px;
+    transition: transform 600ms ease-in-out, box-shadow 600ms ease-in-out;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    /* Adds a slight lift effect */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.service-btn {
+    background-color: rgb(0, 22, 106);
+    color: white;
+    border-radius: 60px;
+    padding: 5px;
+    /* Balanced padding for better button size */
+    transition: all 600ms ease-in-out;
+    border: none;
+    font-weight: bold;
+    width: 35px !important;
+    text-wrap: nowarp;
+    height: 35px !important;
+    overflow: hidden !important;
+    cursor: pointer;
+    /* Adds pointer cursor for better UX */
+    width: 80px;
+    /* Initial width of the button */
+}
+
+
+.service-box:hover .service-btn {
+    width: 160px !important;
+    /* Target width */
+    transition: width 600ms ease-in-out;
+    /* Slow width transition */
+}
+
+.cnt {
+    font-size: 19px;
+    font-weight: 300;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 30px !important;
+}
+
+.cnt ul {
+    list-style: none;
+}
+
+
+
+/* BlogBox.css */
+
+/* General Blog Box Styling */
+.blog-box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+
+/* Image container styling */
+.image-container {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Date styling */
+.date p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Content styling */
+.content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #777;
+}
+
+/* Blog Page Styling */
+.blog-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.blog-page h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.blog-box button {
+    background-color: rgb(0, 16, 80);
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+
+.d-lg-none {
+    display: none;
+}
+
+.d-sm-none {
+    display: block !important;
+}
+
+.dashboard-link {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.dashboard-nav {
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.dashboard-aside {
+    background-color: white;
+    height: 101%;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+
+}
+
+.dashboard-link li {
+    list-style: none;
+    color: black !important;
+    border-radius: 5px;
+    font-weight: 400;
+    color: rgb(3, 17, 72) !important;
+    font-size: 24px;
+    transition: all ease 300ms;
+
+}
+
+.dashboard-link .nav-link.active {
+    list-style: none;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.dashboard-link .nav-link.active:hover {
+    list-style: none;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+
+}
+
+
+.dashboard-link li:hover {
+    list-style: none;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+
+}
+
+.button-box .ord {
+    background-color: salmon;
+    padding: 9px 27px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: white;
+    margin: 2px;
+}
+
+.equal {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Remove the highlighted effect when the input is focused */
+input:focus {
+    outline: none !important;
+    /* Removes the default focus outline */
+    box-shadow: none !important;
+    /* Removes any box shadow that may appear on focus */
+    border-color: initial !important;
+    /* If the border color is changing, reset it */
+}
+
+textarea:focus {
+    outline: none !important;
+    /* Removes the default focus outline */
+    box-shadow: none !important;
+    /* Removes any box shadow that may appear on focus */
+    border-color: initial !important;
+    /* If the border color is changing, reset it */
+}
+
+.sr {
+    padding: 20px;
+    background-color: rgba(109, 109, 109, 0.08);
+    border-radius: 10px;
+    color: rgb(0, 16, 80);
+}
+
+.msg2 {
+    height: 320px !important;
+}
+
+
+
+.fade-row {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.dashboard-heading {
+    background-color: rgb(0, 16, 80);
+    padding: 20px;
+}
+
+.cfs-12 {
+    font-size: 12px !important;
+}
+
+.cfs-14 {
+    font-size: 14px !important;
+}
+
+.cfs-16 {
+    font-size: 16px !important;
+}
+
+
+
+.login-container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    height: 100vh;
+}
+
+.left-side,
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left-side {
+    background-color: rgb(0, 16, 80);
+    /* Optional background color */
+}
+
+.right-side {
+    background-color: #ffffff;
+    /* Optional background color */
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.btn-group img {
+
+    width: 400px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.login-form {
+    width: 80%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+
+.dashboard-link .nav-item {
+    position: relative;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px 0;
+    width: 100%;
+    list-style-type: none;
+    z-index: 100;
+}
+
+.dropdown-list .dropdown-item {
+    padding: 8px 20px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.dropdown-list .dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.nav-item:hover .dropdown-list {
+    display: block;
+}
+
+/* Smooth dropdown animation */
+.dropdown-list {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.nav-item.open .dropdown-list {
+    opacity: 1;
+    display: block;
+}
+
+.delete {
+    background-color: transparent;
+    border: none;
+    padding: 3px 7px;
+    font-size: 17px;
+    color: rgb(0, 16, 80);
+
+}
+
+.edit {
+    background-color: transparent;
+    border: none;
+    padding: 3px 7px;
+    border-radius: 3px;
+    font-size: 19px;
+    color: rgb(0, 16, 80);
+}
+
+.delete:hover {
+    background-color: rgba(202, 241, 255, 0.664);
+    border: none;
+    font-size: 17px;
+    color: rgb(0, 16, 80);
+    border-radius: 3px;
+
+}
+
+.edit:hover {
+    background-color: rgba(202, 241, 255, 0.664);
+
+
+}
+
+.button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-text {
+    position: absolute;
+    bottom: 100%;
+    /* Position the text above the button */
+    left: 50%;
+    /* Center it horizontally */
+    transform: translateX(-50%);
+    background-color: #000;
+    /* Background color for visibility */
+    color: #fff;
+    /* Text color */
+    padding: 5px 10px;
+    /* Padding for better appearance */
+    border-radius: 5px;
+    /* Rounded corners */
+    font-size: 12px;
+    /* Adjust font size */
+    white-space: nowrap;
+    /* Prevent text wrapping */
+    opacity: 0;
+    /* Initially hidden */
+    visibility: hidden;
+    /* Initially hidden */
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    z-index: 1000000;
+    /* Ensure it appears above other elements */
+}
+
+.button-container:hover .hover-text {
+    opacity: 1;
+    /* Show on hover */
+    visibility: visible;
+    /* Show on hover */
+}
+
+.container-dashboard {
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.add-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+    padding: 20px;
+
+
+}
+
+.add-btn {
+    background-color: rgb(0, 16, 80);
+    color: white;
+    border-radius: 30px;
+    padding: 8px 13px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.add-btn:hover {
+    background-color: rgba(0, 16, 80, 0.835);
+
+}
+
+
+
+/* AddService.css */
+
+/* Modal background overlay */
+.delete-popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    /* Ensure modal is on top */
+}
+
+/* Popup content */
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header text inside the popup */
+.popup-content h5 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Button styling */
+.popup-content button {
+    width: 45%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Confirm button style */
+.popup-content .btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Cancel button style */
+.popup-content .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Button hover effects */
+.popup-content .btn-danger:hover {
+    background-color: #c82333;
+}
+
+.popup-content .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Add spacing between the form fields */
+.form-label {
+    font-weight: bold;
+}
+
+
+
+
+.btn-danger {
+    margin-top: 10px;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 0px;
+    border: 1px solid #ccc;
+    padding: 2px 9px;
+    border-radius: 9px;
+}
+
+.searchbox input {
+    border: none;
+    outline: none;
+}
+
+.table-box {
+    width: 100%;
+    border-collapse: collapse;
+    /* Ensures clean borders */
+}
+
+.table-box th,
+.table-box td {
+    text-overflow: ellipsis !important;
+    /* Adds "..." for overflowing text */
+    overflow-y: hidden;
+    white-space: nowrap;
+    max-width: 1px !important;
+    /* Forces text to stay within bounds */
+    height: 60px !important;
+    /* Sets uniform height for all rows */
+    z-index: 99 !important;
+}
+
+.table-box .spd {
+    overflow-y: unset !important;
+}
+
+.table-box th {
+    background-color: #f8f9fa;
+    /* Optional: Header background color */
+    font-weight: bold;
+}
+
+.table-box td img {
+    display: block;
+    width: 50px !important;
+    max-height: 50px;
+    /* Ensures images fit uniformly */
+    object-fit: contain;
+}
+
+.table-box th,
+.table-box td {
+    padding: 10px;
+
+    vertical-align: middle;
+    /* Centers text vertically */
+    text-align: left;
+    /* Aligns text to the left */
+}
+
+
+.view-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.viewpopup-content {
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    width: 60%;
+    height: 96%;
+    padding: 30px;
+    overflow-y: scroll;
+    position: relative;
+    border-radius: 10px;
+}
+
+.popup-header {
+    background-color: white;
+    color: rgb(0, 16, 80);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.popup-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.popup-image {
+    border-radius: 12px !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+
+}
+
+.popup-date {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.popup-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: white;
+    color: red;
+
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.close-title {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+
+}
+
+
+.custom-td {
+    height: 60px !important;
+    overflow: scroll !important;
+}
+
+/* The background overlay for the modal */
+.contactpop {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.87);
+    z-index: 9999;
+    /* Make sure it sits on top */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content inside the modal */
+.contactpop-content {
+    background: white;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional styling for button */
+.contactpop .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contactpop .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.count-box {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    min-height: 100px;
+    padding: 20px;
+    color: rgb(0, 22, 106);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.count-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+
+@media screen and (max-width:576px) {
+
+    .top-bar {
+        display: none;
+    }
+
+    .navbar-brand {
+        font-size: 24px !important;
+        font-weight: 600;
+        color: rgb(0, 22, 106);
+    }
+
+
+    .top-heading h1 {
+        font-size: 45px !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .top-heading {
+        text-align: center;
+    }
+
+    .subheading {
+        font-size: 19px !important;
+        text-align: center;
+    }
+
+    .hero-btn {
+        background-color: white;
+        padding: 10px 20px;
+        color: rgb(0, 22, 106);
+        font-weight: 700;
+        border-radius: 10px;
+        border: none;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+
+    .navbar {
+        position: unset;
+        width: 100%;
+    }
+
+    .hero-section {
+        padding: 30px 0px;
+    }
+
+
+
+    .clinic-name {
+        position: unset;
+        display: none !important;
+
+    }
+
+    .section-heading {
+        padding: 30px 0px;
+    }
+
+    .about-section img {
+        border: 4px solid rgb(0, 22, 106) !important;
+    }
+
+    .pad-30 {
+        padding: 20px 10px;
+    }
+
+    .hero-slider {
+        height: 275px;
+    }
+
+    .about-section p {
+        font-size: 18px;
+    }
+
+    .why p {
+        font-size: 18px;
+    }
+
+    .accordion-button {
+        background-color: rgb(0, 22, 106) !important;
+        color: white !important;
+        font-size: 16px !important;
+        border-radius: 5px !important;
+    }
+
+    .accordion-body {
+        font-size: 16px;
+    }
+
+    .contact-container {
+        background: rgb(0, 16, 80);
+
+        padding: 4px;
+        margin: 0px;
+        margin-top: 0px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+
+    .form-control {
+        height: 45px !important;
+        border-radius: 6px !important;
+
+    }
+
+    .msg {
+        height: 80px !important;
+    }
+
+
+
+
+    .d-sm-none {
+        display: none !important;
+    }
+
+    .d-lg-none {
+        display: block;
+    }
+
+    .dashboard-aside {
+        display: none;
+
+    }
+
+    .login-container {
+        display: grid;
+        grid-template-columns: 100%;
+        height: 100vh;
+    }
+
+    .left-side {
+        display: none;
+    }
+}
